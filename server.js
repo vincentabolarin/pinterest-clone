@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json({ extended: false }));
 
 // Create basic GET route
-app.get('/', (req, res) => res.json({ message: "Welcome to Pinterest!"}));
+app.get('/', (req, res) => res.json({ message: "Welcome to Pinterest!" }));
 
 // PORT
 const port = process.env.PORT || PORT;
